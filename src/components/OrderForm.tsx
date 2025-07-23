@@ -190,6 +190,10 @@ const OrderForm: React.FC = () => {
   method="POST"
   encType="multipart/form-data"
 >
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_template" value="table" />
+  <input type="hidden" name="_autoresponse" value="شكرًا على طلبك! سنتواصل معك قريباً." />
+  <input type="hidden" name="_next" value="https://thanksform5.netlify.app/" />
 
                   <div className="row">
                     
