@@ -248,7 +248,7 @@ const OrderForm: React.FC = () => {
                         rows={3}
                         value={formData.address}
                         onChange={handleInputChange}
-                        placeholder="أدخلي عنوانك التفصيلي مع رقم المبنى والشارع والحي"
+                        placeholder=" أدخلي عنوانك التفصيلي مع رقم المبنى والشارع والحي و أقرب بريد لك"
                       ></textarea>
                       {errors.address && <div className="invalid-feedback">{errors.address}</div>}
                     </div>
