@@ -10,14 +10,14 @@ const Header: React.FC = () => {
               <img src="/MONY.png" alt="MONY STORE" className="logo-image me-3" />
               <div>
                 <h1 className="logo-text mb-0">MONY STORE</h1>
-                <p className="logo-subtitle mb-0">للكروشيه المخصص</p>
+                <p className="logo-subtitle mb-0">للكروشيه و الخرز المخصص</p>
               </div>
             </div>
           </div>
         </div>
         <div className="row">
           <div className="col-12 text-center">
-            <h2 className="page-title">نموذج الطلب المخصص للكروشيه</h2>
+            <h2 className="page-title">نموذج الطلب المخصص </h2>
             <p className="page-subtitle">اطلبي قطعتك المفضلة بالمقاسات والألوان التي تحبينها</p>
           </div>
         </div>
